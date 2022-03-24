@@ -1,1 +1,19 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "header header"
+                         "intro   faq"
+                         "articles faq"
+                         "footer   footer";
+    grid-column-gap: 15px;
+}
 
+body > header {
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+
+body > article {grid-area: intro;}
+body > aside {grid-area: faq;}
+body > section {grid-area: articles;}
+body > footer {grid-area: footer;}
