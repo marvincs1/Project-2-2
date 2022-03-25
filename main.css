@@ -18,7 +18,8 @@ width: 95%;
 
 
 body > article {grid-area: intro;}
-body > aside {grid-area: faq;}
+body > aside {grid-area: faq;
+              color: white;}
 body > section {grid-area: articles;}
 body > footer {grid-area: footer;}
 .header-img {
