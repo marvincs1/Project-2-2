@@ -4,10 +4,10 @@ body {
 display: grid;
 grid-template-columns: 2fr 1fr;
 grid-template-areas: "header header"
-"intro faq"
-"articles faq"
-"footer footer";
-grid-column-gap: 15px;
+                     "intro faq"
+                     "articles faq"
+                     "footer footer";
+grid-column-gap: 20px;
 background-color:#ccc;
 margin-left: auto;
 margin-right: auto;
@@ -72,6 +72,10 @@ color:#946B2D;
 section { background-color:#5D5D5D;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+}
+
+section > h1 {
+  grid-area: 1/1/2/3;
 }
 
 div {
