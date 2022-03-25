@@ -18,8 +18,7 @@ width: 95%;
 
 
 body > article {grid-area: intro;}
-body > aside {grid-area: faq;
-              color: white;}
+body > aside {grid-area: faq;}
 body > section {grid-area: articles;}
 body > footer {grid-area: footer;}
 .header-img {
@@ -80,11 +79,11 @@ section > h1 {
 }
 
 body > * {
-  outline: 2px dashed red;
+  outline: 2px dashed;
 }
 
 section > * {
-  outline: 2px dashed blue;
+  outline: 2px dashed;
 }  
 
 
