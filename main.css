@@ -34,8 +34,7 @@ background-color:#222F5B;
 
 body > header > img {
   display: block;
-  width: 20%;
-  height: 500;
+  width: 100%;
 }
 
 h2{color: #000000;}
