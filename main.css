@@ -78,14 +78,6 @@ section > h1 {
   grid-area: 1/1/2/3;
 }
 
-body > * {
-  outline: 2px dashed;
-}
-
-section > * {
-  outline: 2px dashed;
-}  
-
 
 div {
 background-color:#946B2D;
