@@ -7,7 +7,7 @@ grid-template-areas: "header header"
                      "intro faq"
                      "articles faq"
                      "footer footer";
-grid-column-gap: 20px;
+grid-column-gap: 15px;
 background-color:#ccc;
 margin-left: auto;
 margin-right: auto;
