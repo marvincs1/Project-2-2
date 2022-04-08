@@ -79,12 +79,6 @@ section > h1 {
 }
 
 
-div {
-background-color:#97a7dd;
-  padding: 2px;
-}
-
-
 
 div.gallery {
 margin: 5px;
@@ -149,7 +143,7 @@ background-color: #7c0000;
 
 div {
 border-radius: 1px;
-background-color:#222f5b;
+background-color:#97a7dd;
 padding: 6px;
 }
 
